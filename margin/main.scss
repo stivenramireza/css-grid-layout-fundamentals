@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: 'Lato', sans-serif;
+  width: 550px;
+}
+
+.container {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+}
+
+.element {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.element1 {
+  @extend .element;
+  background: papayawhip;
+  // margin: ;
+}
+
+.element2 {
+  @extend .element;
+  background: papayawhip;
+  // margin: ;
+}
+
+.element3 {
+  @extend .element;
+  background: papayawhip;
+  // margin: ;
+}
+
+.element4 {
+  @extend .element;
+  background: pink;
+  // margin: ;
+}
+
+.element5 {
+  @extend .element;
+  background: pink;
+  // margin: ;
+}
+
+.element6 {
+  @extend .element;
+  background: pink;
+  // margin: ;
+}
+
+.element7 {
+  @extend .element;
+  background: lightcyan;
+  // margin: ;
+}
+
+.element8 {
+  @extend .element;
+  background: lightcyan;
+  // margin: ;
+}
+
+.element9 {
+  @extend .element;
+  background: lightcyan;
+  // margin: ;
+}
